@@ -1,5 +1,8 @@
+struct not_variable {
+    int a;
+} is_variable;
+
 int main() {
-    int a[3][4];
-    a[1323;
-    i = 0;
+    is_variable = not_variable;
+    not_variable = is_variable;
 }
